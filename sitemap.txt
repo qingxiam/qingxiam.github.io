@@ -1,2 +1,5 @@
+http://example.com/Contact/index.html
+http://example.com/About/index.html
+http://example.com/README.html
 http://example.com/2025/02/14/hello-world/
 http://example.com/
