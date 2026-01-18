@@ -14,6 +14,15 @@ aside:
     ©: 1970 to 2020
     ICP: ——备案号——
 
+# Social Links
+social:
+  Instagram: https://www.instagram.com/q.ingx.ia
+  GitHub: https://github.com/qingxiam
+  Zhihu: https://www.zhihu.com/people/qing-xia-36-10
+  Email: mailto:qx310731@gmail.com
+  Xiaohongshu: https://www.xiaohongshu.com/user/profile/5d1b50f50000000016027fc9
+  Bilibili: https://space.bilibili.com/499812030
+
 # post 文章页面配置；true / false
 post:
   date: true # 是否显示发布日期

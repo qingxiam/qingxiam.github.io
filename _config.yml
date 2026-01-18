@@ -103,4 +103,4 @@ theme: arknights
 deploy:
   type: git
   repo: git@github.com:qingxiam/qingxiam.github.io.git
-  branch: main
+  branch: master
