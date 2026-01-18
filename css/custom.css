@@ -1,0 +1,31 @@
+:root {
+  --active-file-bg-color: #dadada;
+  --active-file-text-color: #262626;
+  --bg-color: #f3f3f3;
+  --box-bg-color: #fff;
+  --text-color: #262626;
+  
+  /* Override Primary Blue with Tech Orange */
+  --theme-color: #FF7F00; /* Main Orange */
+  --theme-dark-color: #E65100; /* Darker Orange */
+  --theme-light-color: #FFB74D; /* Lighter Orange */
+}
+
+/* Override specific Arknights blue elements if they don't use the var */
+a {
+  color: var(--theme-color);
+}
+
+a:hover {
+  color: var(--theme-dark-color);
+}
+
+#aside-block .category-list .category-list-item a:hover,
+#aside-block .tag-list .tag-list-item a:hover {
+    color: var(--theme-color);
+}
+
+header nav a:hover {
+    background-color: var(--theme-color);
+    color: white;
+}
