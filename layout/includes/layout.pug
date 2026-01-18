@@ -87,14 +87,14 @@ html(lang=config.language)
                 span.text-content= content
               wbr
           wbr
-          nobr published with&nbsp;
-            a(href='http://hexo.io') Hexo&nbsp;
+        footer(style=footerStyle)
+          if theme.aside.copyright !== null
+            each content, title in theme.aside.copyright
+              nobr
+                span.text-title= title
+                span.text-content= content
+              wbr
           wbr
-          nobr Theme&nbsp;
-            a(href='https://github.com/Yue-plus/hexo-theme-arknights') Arknight&nbsp;
-          wbr
-          nobr by&nbsp;
-            a(href='https://github.com/Yue-plus') Yue_plus
     if theme.canvas_dust
       canvas#canvas-dust
     script(src=config.root + "js/arknights.js")
