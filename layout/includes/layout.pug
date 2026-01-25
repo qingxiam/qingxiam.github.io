@@ -79,22 +79,6 @@ html(lang=config.language)
                   a(href=url target="_blank" style="margin: 5px 0; color: unset; text-decoration: none;")= label
         #aside-block(style= asideBlock)
           block aside-block
-        footer(style=footerStyle)
-          if theme.aside.copyright !== null
-            each content, title in theme.aside.copyright
-              nobr
-                span.text-title= title
-                span.text-content= content
-              wbr
-          wbr
-        footer(style=footerStyle)
-          if theme.aside.copyright !== null
-            each content, title in theme.aside.copyright
-              nobr
-                span.text-title= title
-                span.text-content= content
-              wbr
-          wbr
     if theme.canvas_dust
       canvas#canvas-dust
     script(src=config.root + "js/arknights.js")
